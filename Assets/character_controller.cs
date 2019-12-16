@@ -20,7 +20,8 @@ public class character_controller : MonoBehaviour
     public float jumpForce = 2.0f;
     public bool isGrounded;
     public Vector3 jump;
-
+    private float jumptIMESTAMP;
+    public float jumpDelay;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,7 @@ public class character_controller : MonoBehaviour
 
     void OnCollisionStay(Collision target) {
 
-        if(target.gameObject.tag.Equals("floor") == true) {
+        if(target.gameObject.tag.Equals("floor") == true && Time.time - jumptIMESTAMP > jumpDelay ) {
 
             isGrounded = true;
             actualMaxForwardSpeed = maxforwardspeed;
@@ -124,6 +125,8 @@ public class character_controller : MonoBehaviour
 
             actualMaxForwardSpeed = maxforwardspeed / 2;
             rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+            jumptIMESTAMP = Time.time;
+
             isGrounded = false;
 
         }
