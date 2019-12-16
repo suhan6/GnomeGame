@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: b4195c76d15d1224697585a3c531a0b8
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: GnomeOnBall(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part0
+      parentName: GnomeOnBall(Clone)
+      position: {x: 0, y: 0.3441564, z: -0.012297876}
+      rotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Part1
+      parentName: Part0
+      position: {x: 3.725287, y: -9.216904, z: 1.2297908}
+      rotation: {x: 0.6438686, y: 0.14367005, z: 0.75152653, w: 0.0000031852512}
+      scale: {x: 1.0000006, y: 1.0000019, z: 1.0000013}
+    - name: Part4
+      parentName: Part1
+      position: {x: 0.0000004172325, y: 9.502887, z: 0.00000023841858}
+      rotation: {x: -0.22182557, y: 0.87197316, z: 0.023356473, w: 0.43578735}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000005}
+    - name: Part5
+      parentName: Part4
+      position: {x: 0.00000166893, y: 13.574452, z: -0.0000019669533}
+      rotation: {x: 0.24515966, y: -0.56956136, z: -0.7129305, w: -0.32745504}
+      scale: {x: 0.9999998, y: 1.0000012, z: 1.0000006}
+    - name: Part5_end
+      parentName: Part5
+      position: {x: -0, y: 6.347217, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part2
+      parentName: Part0
+      position: {x: -3.725287, y: -9.216905, z: 1.2297882}
+      rotation: {x: -0.64386845, y: 0.14367005, z: 0.7515267, w: -0.0000031505517}
+      scale: {x: 1.0000021, y: 1.0000019, z: 1.0000014}
+    - name: Part7
+      parentName: Part2
+      position: {x: 0.00000029802322, y: 9.502889, z: -0.00000017881393}
+      rotation: {x: -0.2218256, y: -0.87197304, z: -0.023356397, w: 0.43578774}
+      scale: {x: 1.0000014, y: 1.000001, z: 1.0000008}
+    - name: Part8
+      parentName: Part7
+      position: {x: 0.00000023841858, y: 13.574451, z: -0.0000009536743}
+      rotation: {x: -0.24515958, y: -0.56956136, z: -0.7129306, w: 0.3274548}
+      scale: {x: 1.0000005, y: 1, z: 1.0000006}
+    - name: Part8_end
+      parentName: Part8
+      position: {x: -0, y: 6.347217, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part3
+      parentName: Part0
+      position: {x: -0, y: 4.5264072, z: -0.4725573}
+      rotation: {x: -0.011475103, y: -0, z: -0, w: 0.9999342}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Part10
+      parentName: Part3
+      position: {x: -0, y: 10.294963, z: -0.000000059604645}
+      rotation: {x: -0.2504699, y: -0, z: -0, w: 0.9681244}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Part11
+      parentName: Part10
+      position: {x: 11.738554, y: -2.480344, z: -1.6284797}
+      rotation: {x: 0.13342087, y: 0.17812204, z: -0.67605174, w: 0.7024425}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Part14
+      parentName: Part11
+      position: {x: -0.00000047683716, y: 6.447318, z: 0.0000003874302}
+      rotation: {x: 0.053493083, y: 0.058905624, z: -0.04825089, w: 0.9956609}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000005}
+    - name: Part15
+      parentName: Part14
+      position: {x: 0.00000023841858, y: 6.388992, z: 0.0000006556511}
+      rotation: {x: -0.025594303, y: -0.016672416, z: 0.35353348, w: 0.934923}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000007}
+    - name: Part16
+      parentName: Part15
+      position: {x: -1.6592278, y: 5.0828695, z: -0.1111449}
+      rotation: {x: -0.072882175, y: -0.03711217, z: 0.029690018, w: 0.99620754}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Part16_end
+      parentName: Part16
+      position: {x: -0, y: 2.7679124, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part17
+      parentName: Part15
+      position: {x: 3.1136832, y: 4.277773, z: 0.65538526}
+      rotation: {x: 0.22722393, y: 0.118039176, z: -0.31268713, w: 0.91469276}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Part17_end
+      parentName: Part17
+      position: {x: -0, y: 5.0965943, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part12
+      parentName: Part10
+      position: {x: -11.738554, y: -2.480338, z: -1.6284783}
+      rotation: {x: -0.6733946, y: 0.70470434, z: 0.12895611, w: 0.18248798}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000011}
+    - name: Part20
+      parentName: Part12
+      position: {x: -0.00000071525574, y: 6.447317, z: -0.0000010728836}
+      rotation: {x: 0.053331576, y: 0.05894772, z: 0.04886704, w: -0.99563694}
+      scale: {x: 1, y: 1, z: 0.9999996}
+    - name: Part21
+      parentName: Part20
+      position: {x: -0.00000022351742, y: 6.388992, z: -0.0000010430813}
+      rotation: {x: -0.05850681, y: -0.0074651046, z: -0.32278225, w: -0.9446338}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000008}
+    - name: Part22
+      parentName: Part21
+      position: {x: -1.4637899, y: 4.5394197, z: 0.6118593}
+      rotation: {x: 0.072882175, y: 0.037112188, z: 0.029690066, w: 0.9962076}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000001}
+    - name: Part22_end
+      parentName: Part22
+      position: {x: -0, y: 2.7679124, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part23
+      parentName: Part21
+      position: {x: 3.1269794, y: 5.3164396, z: -0.8218069}
+      rotation: {x: 0.22571497, y: 0.119128466, z: 0.3023437, w: -0.91839504}
+      scale: {x: 1.0000005, y: 1, z: 0.9999997}
+    - name: Part23_end
+      parentName: Part23
+      position: {x: -0, y: 5.0965943, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Part13
+      parentName: Part10
+      position: {x: -0, y: 6.19441, z: 3.256958}
+      rotation: {x: 0.2523147, y: -0, z: -0, w: 0.9676453}
+      scale: {x: 1, y: 0.9999995, z: 0.9999997}
+    - name: Part13_end
+      parentName: Part13
+      position: {x: -0, y: 12.03399, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Layer_1
+      parentName: GnomeOnBall(Clone)
+      position: {x: -0, y: 0.000000010759811, z: -0.00000004405286}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 5921950c08fed9b4aaabf6db824ca836,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
