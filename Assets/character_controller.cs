@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -107,7 +108,7 @@ public class character_controller : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(new_rotation);
 
         if (velocity_z > 0.0f) {
-            animator.SetFloat("speedMultiplier", flattened_vel_magnitude * speedMultiply);
+            animator.SetFloat("speedMultiplier", ((((Mathf.Pow((flattened_vel_magnitude - speedMultiply), 2)) / Mathf.Pow(speedMultiply, speedMultiply)) * -1) + 1));
         } else if (velocity_z < 0.0f) {
             animator.SetFloat("speedMultiplier", flattened_vel_magnitude * BackwardsSpeedMultiply);
         }
